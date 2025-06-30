@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Server=.;Database=DotNetTrainingBatch2_POS;User ID=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o PosDbContextModels -c PosDbContext -f
